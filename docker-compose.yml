@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  currencyservices:
+    image: currencyservices
+    build:
+      context: .
+      dockerfile: CurrencyServices\Dockerfile
